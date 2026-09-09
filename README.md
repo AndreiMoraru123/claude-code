@@ -13,3 +13,9 @@ Copy `settings.local.json` into a repo's `.claude/` directory.
              -m ./ds4flash.gguf
              --vision gguf/DeepSeek-V4-Flash-Vision-Encoder.gguf
 ```
+
+## Increasing available RAM usage [macos]
+
+```sh
+sudo sysctl iogpu.wired_limit_mb=102400 # 100 GB
+```
