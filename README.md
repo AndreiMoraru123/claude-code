@@ -7,7 +7,7 @@ Copy `settings.local.json` into a repo's `.claude/` directory.
 ## Running the server
 
 ```sh
-./ds4-server --ctx 100000
+./ds4-server --ctx 200000
              --kv-disk-dir /tmp/ds4-kv
              --kv-disk-space-mb 8192
              -m ./ds4flash.gguf
