@@ -1,6 +1,6 @@
 # cc
 
-Claude Code config for driving a local DeepSeek V4 Flash via [DwarfStar](../ds4).
+Claude Code config for driving a local DeepSeek V4 Flash via [DwarfStar](https://github.com/antirez/ds4).
 
 Copy `settings.local.json` into a repo's `.claude/` directory.
 
